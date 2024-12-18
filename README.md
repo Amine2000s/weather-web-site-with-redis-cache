@@ -29,7 +29,7 @@ Before running the project, ensure you have the following installed:
 2. Caching Mechanism :
       - Weather data is cached in Redis with a time-to-live (TTL) to ensure data freshness.
       - The TTL can be configured in the application (default is 10 minutes).
-
-
+## Architecture 
+![Architecture](./IMAGES/architecure.png)
     
 
