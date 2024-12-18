@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Weather App</h1>
+            <label for="state">Select State:</label>
+            <select id="state">
+                <option value="">Select a state</option>
+               
+            </select>
+
+            <label for="city">Select City:</label>
+            <select id="city">
+                <option value="">Select a city</option>
+            </select>
+
+            <button id="getWeather">Get Weather</button>
+            <div id="weatherResult"></div>
+        </div>
+    </div>
+
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="closePopup" class="close">&times;</span>
+            <h2>Weather Details</h2>
+            <p id="weatherDetails"></p>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
